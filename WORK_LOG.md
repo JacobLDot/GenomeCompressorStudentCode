@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: Jacob Lowe
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date             |      Time      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Update |
+|:-----------------|:--------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| November 16 & 17 | 1:00 - 3:00 pm | I was thinking about where the conversions go throughout the process of compressing and expanding text in a file. I was also thinking about potentially making an A, C, T, G as final magic numnbers, since those are the only possible letters we could use in the DNA string of nucleotides. My thought process regarding the compression and expanding, was just to go through the DNA sequence and then converting the things to the other things and then writing it out as a specific number of bits. |
+|                  |                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.

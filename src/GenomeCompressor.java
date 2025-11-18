@@ -69,9 +69,9 @@ public class GenomeCompressor {
     public static void expand() {
         int sequenceLength = BinaryStdIn.readInt();
 
-        // Goes through the entire sequence and writes a 8 bit letter out to the output file.
+        // Goes through the entire sequence and writes an 8 bit letter out to the file.
         for (int i = 0; i < sequenceLength; i++) {
-            char number = BinaryStdIn.readChar(2);
+            char number = BinaryStdIn.readChar(i);
             char letter = numberToLetter(number);
             BinaryStdOut.write(letter, 8);
         }

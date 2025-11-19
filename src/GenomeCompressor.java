@@ -71,7 +71,7 @@ public class GenomeCompressor {
 
         // Goes through the entire sequence and writes an 8 bit letter out to the file.
         for (int i = 0; i < sequenceLength; i++) {
-            char number = BinaryStdIn.readChar(i);
+            char number = BinaryStdIn.readChar(2);
             char letter = numberToLetter(number);
             BinaryStdOut.write(letter, 8);
         }

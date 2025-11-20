@@ -30,8 +30,10 @@ public class GenomeCompressor {
             case 'C' -> { return C; }
             case 'T' -> { return T; }
             case 'G' -> { return G; }
+            default -> {
+                return 0;
+            }
         }
-        return 0;
     }
 
     // Map the number to it's DNA letter code
@@ -41,8 +43,10 @@ public class GenomeCompressor {
             case 1 -> { return 'C'; }
             case 2 -> { return 'T'; }
             case 3 -> { return 'G'; }
+            default -> {
+                return 0;
+            }
         }
-        return 0;
     }
 
     /**
